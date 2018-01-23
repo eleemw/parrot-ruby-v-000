@@ -2,9 +2,10 @@
 def parrot(phrase = nil)
   if phrase != nil
     puts "Pretty bird!"
-  else
-    puts "Squawk!"
-    "Squawk!"
+    "Pretty bird!"
+  else                    # when #parrot called w/ no arguments
+    puts "Squawk!"        # outputs "Squawk!" to terminal &
+    "Squawk!"             # returns default phrase
   end
 end
 # returns the phrase
