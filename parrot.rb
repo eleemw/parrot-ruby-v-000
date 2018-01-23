@@ -8,4 +8,3 @@ def parrot(phrase = nil)
     "Squawk!"             # returns default phrase
   end
 end
-
